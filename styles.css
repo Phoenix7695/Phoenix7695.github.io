@@ -107,7 +107,7 @@ button:hover {
     color: white;
     position: absolute;
     font-weight: bold;
-    top: 10%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 8em;
@@ -116,17 +116,18 @@ button:hover {
 }
 
 .boxed {
+    text-align: right;
     position: relative;
     background: white;
-    margin-right: 40%;
-    margin-left: 40%;
+    margin-right: 38%;
+    margin-left: 38%;
     padding: 2rem;
-    bottom: 38%;
+    bottom: 30%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 2px 5px 5px #888;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .boxed-text-1 {
@@ -139,8 +140,8 @@ button:hover {
 }
 
 .boxed-2 {
-    bottom: 33%;
-    box-shadow: 5px 10px 10px #888;
+    bottom: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .icons {
