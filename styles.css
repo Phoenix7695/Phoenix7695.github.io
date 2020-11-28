@@ -14,6 +14,21 @@ body {
     margin: 0px;
 }
 
+h1 {
+    font-family: 'Gill Sans Nova Bold';
+}
+
+h2 {
+    font-family: 'Gill Sans Nova';
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* Navbar */
+
 li, a, button {
     font-family: 'Gill Sans Nova';
     color: rgb(117, 117, 117);
@@ -26,7 +41,6 @@ nav {
 }
 
 button {
-    font-family: 'Gill Sans Nova';
     color: white;
 }
 
@@ -44,10 +58,12 @@ header {
 
 .nav_links {
     list-style: none;
+    font-size: 0;
 }
 
 .nav_links li {
     display: inline-block;
+    flex-direction: row;
     padding: 0px 20px;
 }
 
@@ -65,23 +81,15 @@ button {
     border: none;
     border-radius: 30px;
     cursor: pointer;
-    /* transition: all 0.3s ease 0s; */
+    transition: all 0.3s ease 0s;
 }
 
-h1 {
-    font-family: 'Gill Sans Nova Bold';
-}
-
-h2 {
-    font-family: 'Gill Sans Nova';
-}
-
-.container {
-    display: grid;
-    grid-template-columns: 1fr;
+button:hover {
+    background-color: #801edb;
 }
 
 /* Hero */
+
 .hero {
     position: relative;
     text-align: center;
@@ -99,8 +107,81 @@ h2 {
     color: white;
     position: absolute;
     font-weight: bold;
-    top: 30%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 5em;
+    font-size: 8em;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.boxed {
+    position: relative;
+    background: white;
+    margin-right: 40%;
+    margin-left: 40%;
+    padding: 2rem;
+    bottom: 38%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 5px 5px #888;
+}
+
+.boxed-text-1 {
+    font-size: 6em;
+}
+
+.boxed-text-2 {
+    font-size: 3em;
+    font-family: 'Gill Sans Nova';
+}
+
+.boxed-2 {
+    bottom: 33%;
+    box-shadow: 5px 10px 10px #888;
+}
+
+.icons {
+    width: 110px;
+    height: auto;
+}
+
+.icon-1 {
+    position: relative;
+    bottom: 39%;
+    right: 30%;
+}
+
+.icon-2 {
+    position: relative;
+    bottom: 34%;
+    right: 25%;
+}
+
+.icon-3 {
+    position: relative;
+    bottom: 31%;
+    right: 16%;
+}
+
+.icon-6 {
+    position: relative;
+    bottom: 40%;
+    left: 30%;
+}
+
+.icon-5 {
+    width: 115px;
+    height: auto;
+    position: relative;
+    bottom: 35%;
+    left: 23%;
+}
+
+.icon-4 {
+    position: relative;
+    bottom: 31%;
+    left: 16%;
 }
