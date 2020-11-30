@@ -108,7 +108,7 @@ button:hover {
     color: white;
     position: absolute;
     font-weight: bold;
-    top: 15%;
+    top: 9vw;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 8vw;
@@ -122,8 +122,8 @@ button:hover {
     background: white;
     margin-right: 36vw;
     margin-left: 36vw;
-    padding: 3rem;
-    bottom: 28%;
+    padding: 3vw;
+    bottom: 22vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -142,7 +142,7 @@ button:hover {
 }
 
 .boxed-2 {
-    bottom: 25%;
+    bottom: 20vw;
     box-shadow: 0 .25vw .5vw 0 rgba(0, 0, 0, 0.2), 0 .375vw 1.25vw 0 rgba(0, 0, 0, 0.19);
 }
 
